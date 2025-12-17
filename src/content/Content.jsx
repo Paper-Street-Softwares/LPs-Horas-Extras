@@ -135,8 +135,9 @@ const content = {
 
   transformacao: {
     texts: {
-      titulo: "Orientação jurídica para regularização do Imposto de Renda",
-      labelBotaoPrincial: "Falar com Advogado",
+      titulo:
+        "Não aceite mais perder horas de sono preocupado com as contas pra pagar",
+      labelBotaoPrincial: "Quero ajuda da Advogada já",
     },
     antes: {
       etiqueta: "ANTES",
@@ -144,16 +145,17 @@ const content = {
         {
           index: 1,
           texto:
-            "Dúvidas sobre possíveis erros na declaração do Imposto de Renda",
+            "Você se sente injustiçado(a), mas não sabe qual é o melhor caminho para resolver",
         },
         {
           index: 2,
           texto:
-            "Insegurança sobre a necessidade de suporte jurídico para tratar pendências fiscais",
+            "Sabe que precisa de um advogado, mas não se sente seguro(a) para contratar",
         },
         {
           index: 3,
-          texto: "Preocupação com eventuais multas ou atrasos na restituição",
+          texto:
+            "Vive com a sensação de que poderia entrar com uma ação e finalmente organizar sua vida financeira",
         },
       ],
     },
@@ -164,17 +166,17 @@ const content = {
         {
           index: 1,
           texto:
-            "Maior segurança ao contar com acompanhamento jurídico durante a regularização da declaração",
+            "Você tem tranquilidade sabendo que seu caso está em andamento e sendo acompanhado de perto",
         },
         {
           index: 2,
           texto:
-            "Esclarecimentos contínuos sobre cada etapa, com orientação direta e adequada ao seu caso",
+            "Recebe atualizações claras e fica em paz sabendo que pode falar comigo sempre que precisar",
         },
         {
           index: 3,
           texto:
-            "Tranquilidade ao compreender o andamento do processo e as medidas necessárias segundo a legislação",
+            "Dorme tranquilo(a), com a certeza de que seu caso está em mãos experientes e será defendido até o fim",
         },
       ],
     },
