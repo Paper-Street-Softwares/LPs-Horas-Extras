@@ -35,7 +35,7 @@ export const themes = {
     titleColor: "text-white",
     heroTitleFontWeight: "font-medium",
     heroTitleFocus: "font-medium",
-    subtitleColor: "text-white",
+    subtitleColor: "text-primary",
     textColor: "fontLighter",
     mainColor: "lighter",
     secondaryColor: "darker",

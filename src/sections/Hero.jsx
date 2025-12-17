@@ -77,11 +77,11 @@ export default function Hero({ imagemFocadaBackground, colorMode }) {
           </div>
           <div>
             <p
-              className={`max-w-3xl mx-auto font-bold text-primary mt-6 mb-4 text-lg sm:text-xl text-fond/85 font-secondFont ${subtitleColor} text-[14px] phone2:text-[16px] phone3:text-[18px] lg:text-[20px]`}
+              className={`max-w-3xl mx-auto font-bold text-primary mt-10 mb-2 text-lg sm:text-xl text-fond/85 font-secondFont ${subtitleColor} text-[14px] phone2:text-[16px] phone3:text-[18px] lg:text-[20px]`}
             >
               ⚠️ Você tem indenização a receber se:
             </p>
-            <ul className="gap-1 flex flex-col text-[12px] phone2:text-[14px] phone3:text-[16px] lg:text-[18px]">
+            <ul className=" flex flex-col text-[12px] phone2:text-[14px] phone3:text-[16px] lg:text-[18px]">
               <li>✓ Você trabalhava em mais de uma função</li>
               <li>✓ Não recebia todas as horas extras</li>
               <li>✓ Trabalhou período sem carteira assinada</li>
