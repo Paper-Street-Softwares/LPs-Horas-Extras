@@ -11,7 +11,7 @@ export const content = ["./src/**/*.{js,jsx,ts,tsx}"];
 export const theme = {
   extend: {
     colors: {
-      lighter: "#770000",
+      lighter: "#CAB084",
       darker: "#222222",
       darker2: "",
       fontLighter: "#ffffff",

@@ -30,7 +30,7 @@ export const themes = {
   },
 
   default: {
-    backgroundDiv: "bg-black/90",
+    backgroundDiv: "bg-black/85",
     minitag: "darker",
     titleColor: "text-white",
     heroTitleFontWeight: "font-medium",

@@ -1,15 +1,30 @@
-import React from "react";
+import React, { Suspense } from "react";
+import WhatsappFloatingButton from "../components/buttons/WhatsappFloatingButton";
 import Hero from "../sections/Hero";
 
-const Personalizado = React.lazy(() => import("../sections/Personalizado"));
+// Lazy-load dos componentes que não precisam estar no bundle inicial
+const About = React.lazy(() => import("../sections/About"));
+const Cta = React.lazy(() => import("../sections/Cta"));
+const Features = React.lazy(() => import("../sections/Features"));
+const Footer = React.lazy(() => import("../sections/Footer"));
+const Transformacao = React.lazy(() => import("../sections/Transformacao"));
 
 export default function Index() {
-  const colorMode = "default"; // default, light e dark
-
   return (
     <>
-      <Hero colorMode={colorMode} imagemFocadaBackground={true} />
-      <main></main>
+      <Hero imagemFocadaBackground={true} />
+      <main>
+        <Suspense fallback={null}>
+          <Features />
+          <Transformacao />
+          <Cta />
+          <About />
+        </Suspense>
+      </main>
+      <Suspense fallback={null}>
+        <Footer />
+      </Suspense>
+      <WhatsappFloatingButton />
     </>
   );
 }

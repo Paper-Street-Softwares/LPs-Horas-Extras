@@ -38,16 +38,22 @@ const content = {
 
   features: {
     texts: {
-      titulo: "Imposto de Renda com orientação jurídica especializada",
-      labelBotaoPrincial: "Entrar em Contato",
+      titulo: "A injustiça que você sofreu pode virar indenização",
+      labelBotaoPrincial: "Quer receber minha indenização",
     },
     cards: [
       {
         index: 1,
-        icone: FileX,
-        titulo: "Erros na declaração",
-        descricao:
-          "Identificação e orientação jurídica para a correção de inconsistências na declaração, conforme a legislação vigente.",
+        icone: HandCoins,
+        titulo: "Verbas rescisórias incompletas",
+        descricao: (
+          <ul className="flex flex-col items-center space-y-2 text-sm text-center text-gray-600">
+            <li>✓ Férias não pagas ou pagas parcialmente</li>
+            <li>✓ 13º salário incorreto</li>
+            <li>✓ FGTS ou multa de 40% pendentes</li>
+            <li>✓ Aviso-prévio não pago</li>
+          </ul>
+        ),
         labelBotaoModal: "Saiba mais",
         textoModal: (
           <p>
@@ -60,10 +66,16 @@ const content = {
       },
       {
         index: 2,
-        icone: UserRoundSearch,
-        titulo: "Malha fina",
-        descricao:
-          "Análise e acompanhamento jurídico de situações relacionadas à malha fina, com esclarecimentos sobre cada etapa do procedimento.",
+        icone: HandCoins,
+        titulo: "Horas extras não pagas",
+        descricao: (
+          <ul className="flex flex-col items-center space-y-2 text-sm text-center text-gray-600">
+            <li>✓ Jornadas além do horário sem pagamento</li>
+            <li>✓ Banco de horas irregular</li>
+            <li>✓ Trabalho em casa sem remuneração</li>
+            <li>✓ Intervalos não respeitados</li>
+          </ul>
+        ),
         labelBotaoModal: "Saiba mais",
         textoModal: (
           <p>
@@ -77,9 +89,37 @@ const content = {
       {
         index: 3,
         icone: HandCoins,
-        titulo: "Restituição retida",
-        descricao:
-          "Avaliação dos motivos da retenção e orientação sobre os ajustes necessários para a regularização junto aos órgãos competentes.",
+        titulo: "Desvio ou acúmulo de função",
+        descricao: (
+          <ul className="flex flex-col items-center space-y-2 text-sm text-center text-gray-600">
+            <li>✓ Contrato para uma função, atuação em outra</li>
+            <li>✓ Acúmulo de tarefas sem reajuste salarial</li>
+            <li>✓ Responsabilidades extras sem reconhecimento</li>
+            <li>✓ Função real diferente da registrada</li>
+          </ul>
+        ),
+        labelBotaoModal: "Saiba mais",
+        textoModal: (
+          <p>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </p>
+        ),
+      },
+      {
+        index: 4,
+        icone: HandCoins,
+        titulo: "Demissão injusta ou irregular",
+        descricao: (
+          <ul className="flex flex-col items-center space-y-2 text-sm text-center text-gray-600">
+            <li>✓ Pressão para pedir demissão</li>
+            <li>✓ Dispensa sem justificativa adequada</li>
+            <li>✓ Tratamento injusto no ambiente de trabalho</li>
+            <li>✓ Irregularidades no processo de demissão</li>
+          </ul>
+        ),
         labelBotaoModal: "Saiba mais",
         textoModal: (
           <p>
