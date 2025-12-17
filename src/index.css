@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "EB Garamond";
+  src: url("/fonts/EBGaramond/EBGaramond-Medium.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
