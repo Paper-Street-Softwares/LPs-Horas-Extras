@@ -30,7 +30,7 @@ export default function Transformacao() {
                   data: content.transformacao.depois,
                   styles: {
                     cardClasses: "bg-lighter/20 shadow-lg hover:shadow-xl",
-                    etiquetaClasses: "text-fontLighter bg-lighter",
+                    etiquetaClasses: "text-fontDarker bg-lighter text-darker",
                     bulletClasses: "bg-lighter",
                     textoClasses: "text-lg text-gray-900",
                   },

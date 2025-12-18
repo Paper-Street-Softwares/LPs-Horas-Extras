@@ -14,7 +14,7 @@ export default function Footer({ colorMode }) {
     setVisible(true);
   };
 
-  const { backgroundDiv, textColor, minitag, mainColor } =
+  const { backgroundDiv, textColor, minitag, mainColor, secondaryColor } =
     themes[colorMode] || themes.default;
 
   return (
@@ -24,7 +24,7 @@ export default function Footer({ colorMode }) {
           <img
             src={content.footer.imagem.background}
             alt="Imagem ilustrativa"
-            className="w-full h-full object-cover"
+            className="object-cover w-full h-full"
           />
           <div className={`absolute inset-0 ${backgroundDiv}`}></div>
         </div>
@@ -32,7 +32,7 @@ export default function Footer({ colorMode }) {
           <div className="relative z-10 mx-auto text-center max-w-7xl ">
             <MotionDivDownToUp>
               <span
-                className={`inline-flex items-center rounded-full text-${textColor} bg-${minitag} font-semibold text-xs px-4 py-1.5 uppercase tracking-wider ${textColor}`}
+                className={`inline-flex items-center rounded-full text-${secondaryColor} bg-${minitag} font-semibold text-xs px-4 py-1.5 uppercase tracking-wider ${textColor}`}
               >
                 <svg
                   className="w-4 h-4 mr-1.5"
@@ -90,7 +90,7 @@ export default function Footer({ colorMode }) {
               <button
                 onClick={abrirModal}
                 aria-label="Abre um Modal com os termos da Política de privacidade"
-                className="underline cursor-pointer outline-none w-fit mx-auto"
+                className="mx-auto underline outline-none cursor-pointer w-fit"
               >
                 Políticas de privacidade
               </button>{" "}

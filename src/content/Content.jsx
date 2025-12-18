@@ -22,8 +22,7 @@ const content = {
       logo: imgLogo,
     },
     texts: {
-      etiqueta:
-        "Advogada Trabalhista Especialista em Rescisões e Tempos de Trabalho | São Paulo - SP",
+      etiqueta: "Advogada Trabalhista | Rescisões | Tempos de Trabalho",
       titulo: {
         antes: "Foi",
         palavraFocada: "demitido(a)",
@@ -189,28 +188,31 @@ const content = {
     texts: {
       etiqueta: "Não deixe pra depois",
 
-      titulo: <h2>Estamos Online Para Tirar Suas Dúvidas</h2>,
-      subtitulo: (
-        <p>
-          Clique e fale conosco — nossa equipe está pronta para atender você.
-        </p>
+      titulo: (
+        <h2>
+          Quanto mais você demora, mais tempo fica sem a tranquilidade que
+          merece
+        </h2>
       ),
-      labelBotaoPrincial: "Entrar em Contato",
+      subtitulo: <p></p>,
+      labelBotaoPrincial: "Quero resolver agora",
     },
     pontos: [
       {
         index: 1,
-        texto: <p>Receba atendimento imediato com apenas um clique.</p>,
+        texto: <p>✓ Atendimento em todo o Brasil, 100% online</p>,
       },
       {
         index: 2,
-        texto: <p>Responder Formulário</p>,
+        texto: (
+          <p>
+            ✓ Acompanhamento do início ao fim, sempre com informações claras
+          </p>
+        ),
       },
       {
         index: 3,
-        texto: (
-          <p>Envie suas informações e um especialista retornará rapidamente.</p>
-        ),
+        texto: <p>✓ Resposta rápida no WhatsApp, sem burocracia</p>,
       },
     ],
   },

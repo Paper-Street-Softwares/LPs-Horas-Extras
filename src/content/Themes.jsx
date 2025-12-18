@@ -31,7 +31,7 @@ export const themes = {
 
   default: {
     backgroundDiv: "bg-black/85",
-    minitag: "darker",
+    minitag: "lighter",
     titleColor: "text-white",
     heroTitleFontWeight: "font-medium",
     heroTitleFocus: "font-medium",
